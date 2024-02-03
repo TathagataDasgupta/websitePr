@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Zen+Dots&display=swap');
+
+@font-face {
+    font-family: 'Keshiki Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Keshiki Regular'), url('Keshiki-RpYoA.woff') format('woff');
+    }
+        /* @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');  */
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Keshiki Regular'; 
+    color: #fff; 
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    /* perspective: 800px; */
+}
+#nav-logo {
+    padding-top: 20px;
+    margin-bottom: -17px;
+    padding-left: 20px;
+    /* background-color: red; */
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+    gap: 50px;
+    margin-bottom: -127px;
+    
+    
+}
+#nav a{
+    text-decoration: none;
+    color:black;
+    height: 10px;
+}
+#nav h4{
+    font-family: 'Zen Dots', sans-serif;
+}
+video{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    /* transform: translate(-10%, -10%); */
+    object-fit: cover;
+    background-position: center;
+    z-index: -1;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    /* background-color: black; */
+}
+#page1content{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.16);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    
+
+}
+#page1content h1 span{
+    font-size: 13vw;
+    
+    /* box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
+
+}
+#cursor{
+    position:absolute;
+    z-index: 0;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(253, 105, 0);
+    border-radius: 50%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    position: fixed;
+
+}
+#cursor h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+#cursor a{
+    text-decoration: none;
+    color: #000;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+}
